@@ -237,8 +237,7 @@ button.white:hover {
         transition: 0.3s ease;
     }
 
-    #mobile a:hover i,
-    #mobile i:hover {
+    #mobile a:hover i {
         color: #000;
         transform: scale(1.2);
     }
@@ -913,15 +912,8 @@ footer .footer-bottom p {
         font-size: 15px;
     }
     #product1 .pro .cart {
-        width: 100%;
         padding: 8px 0;
-        background-color: #000;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
         font-size: 12px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
     }
 }
 
