@@ -951,6 +951,7 @@ footer .footer-bottom p {
     button.white {
         font-size: 10px;
         padding: 8px 20px;
+        border: 1px solid #000;
     }
     #sm-banner .banner-box {
         height: 30vh;
