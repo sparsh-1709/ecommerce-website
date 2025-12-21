@@ -748,7 +748,7 @@ footer .footer-content .footer-box .app-logo img {
     border-radius: 8px;
 }
 
-footer .footer-content .footer-box .app-logo img:hover {
+footer .footer-content .footer-box .app-logo a:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -771,7 +771,7 @@ footer .footer-content .footer-box .payment img {
     transition: 0.3s ease;
 }
 
-footer .footer-content .footer-box .payment img:hover {
+footer .footer-content .footer-box .payment a:hover {
     transform: scale(1.07);
     cursor: pointer;
 }
