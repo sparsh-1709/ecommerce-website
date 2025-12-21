@@ -278,7 +278,7 @@ button.white:hover {
 @media (max-width: 799px) {
     #hero {
         height: 60vh;
-        padding: 0px 100px;
+        padding: 0px 50px;
         background-position: top 30% right 20%;
 
     }
@@ -331,10 +331,6 @@ button.white:hover {
 
 /* RESPONSIVE FEATURES */
 @media (max-width: 799px) {
-    #feature {
-        justify-content: center;
-    }
-
     #feature .fe-box {
         width: 150px;
         text-align: center;
