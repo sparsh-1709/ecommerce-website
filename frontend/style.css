@@ -233,14 +233,14 @@ button.white:hover {
     #mobile a i,
     #mobile i {
         font-size: 18px;
-        color: #555;
+        color: #000;
         transition: 0.3s ease;
     }
 
-    #mobile a:hover i {
+    /* #mobile a:hover i {
         color: #000;
         transform: scale(1.2);
-    }
+    } */
 
 }
 
@@ -816,7 +816,7 @@ footer .footer-bottom p {
 
     footer .footer-content .footer-box .payment {
         margin: 20px auto 0;
-        display: block;
+        align-items: center;
     }
 }
 
@@ -879,7 +879,7 @@ footer .footer-bottom p {
     }
     #feature.section-p1 {
         margin: 0 25px;
-        gap: 0px;
+        gap: 15px;
     }
     #product1 .pro {
         width: 45%;
@@ -941,7 +941,7 @@ footer .footer-bottom p {
     #sm-banner .banner-box h2 {
         font-size: 20px;
         font-weight: 700;
-        margin-bottom: 6px;
+        margin-bottom: 0px;
     }
     #sm-banner .banner-box span {
         font-size: 12px;
@@ -949,21 +949,25 @@ footer .footer-bottom p {
         opacity: 0.9;
     }
     button.white {
-        font-size: 12px;
+        font-size: 10px;
+        padding: 8px 20px;
     }
     #sm-banner .banner-box {
-    flex: 1 1 48%;
-    height: 25vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-    padding: 40px 25px;
+        height: 30vh;
+        padding: 40px 25px;
+    }
+    /* Newsletter */
+    #newsletter input {
+        height: 2.500rem;
+        font-size: 12px;
+    }
+    #newsletter h4 {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    #newsletter p {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
 }
-}
-
-
-
