@@ -976,17 +976,27 @@ footer .footer-bottom p {
 }
 
 /* Disable hover effects on touch devices */
-/* Desktop only hover */
+/* ===============================
+   DESKTOP: enable hover normally
+   =============================== */
 @media (hover: hover) and (pointer: fine) {
-  a:hover,
-  button:hover {
-    background: #000;
-    color: #fff;
+  *:hover {
+    /* hover styles work as written */
   }
 }
 
-/* Mobile cleanup */
-* {
-  -webkit-tap-highlight-color: transparent;
+/* ===============================
+   MOBILE: disable ALL hover
+   =============================== */
+@media (hover: none) and (pointer: coarse) {
+  *:hover {
+    background: none !important;
+    color: inherit !important;
+    box-shadow: none !important;
+    transform: none !important;
+    filter: none !important;
+    border-color: inherit !important;
+  }
 }
+
 
