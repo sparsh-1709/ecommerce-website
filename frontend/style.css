@@ -977,20 +977,10 @@ footer .footer-bottom p {
 
 /* Disable hover effects on touch devices */
 /* ===============================
-   DESKTOP: enable hover normally
-   =============================== */
-@media (hover: hover) and (pointer: fine) {
-  *:hover {
-    /* hover styles work as written */
-  }
-}
-
-/* ===============================
    MOBILE: disable ALL hover
    =============================== */
 @media (hover: none) and (pointer: coarse) {
   *:hover {
-    background: none !important;
     color: inherit !important;
     box-shadow: none !important;
     transform: none !important;
