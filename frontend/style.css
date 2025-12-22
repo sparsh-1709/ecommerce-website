@@ -978,7 +978,7 @@ footer .footer-bottom p {
 /* Disable hover effects on touch devices */
 @media (hover: none) and (pointer: coarse) {
   *:hover {
-    background: none !important;
+    /* background: none !important; */
     color: inherit !important;
     box-shadow: none !important;
     border-color: inherit !important;
