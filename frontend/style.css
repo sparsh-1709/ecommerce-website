@@ -981,9 +981,6 @@ footer .footer-bottom p {
    =============================== */
 @media (hover: none) and (pointer: coarse) {
   *:hover {
-    color: inherit !important;
-    box-shadow: none !important;
-    transform: none !important;
     filter: none !important;
     border-color: inherit !important;
   }
