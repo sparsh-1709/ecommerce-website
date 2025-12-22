@@ -976,4 +976,17 @@ footer .footer-bottom p {
 }
 
 /* Disable hover effects on touch devices */
+/* Desktop only hover */
+@media (hover: hover) and (pointer: fine) {
+  a:hover,
+  button:hover {
+    background: #000;
+    color: #fff;
+  }
+}
+
+/* Mobile cleanup */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 
