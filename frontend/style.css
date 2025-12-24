@@ -620,11 +620,6 @@ button.white:active {
         box-shadow: 0 10px 28px rgba(0,0,0,0.15);
     }
 }
-#sm-banner .banner-box:active {
-    transform: scale(0.98);
-    transition: 0.1s ease;
-    opacity: 0.85;
-}
 
 /* RESPONSIVE SMALL BANNER */
 @media (max-width: 799px) {
