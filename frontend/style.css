@@ -63,6 +63,8 @@ body {
     display: block;
 }
 
+
+/* HAVE TO FOLLOW THIS CONTRAINT */
 button.normal {
     padding: 12px 25px;
     background-color: #000;
@@ -73,13 +75,17 @@ button.normal {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 /* Do Hover everytime like this */
 @media (hover: hover) and (pointer: fine) {
     button.normal:hover {
         transform: scale(1.05);
         transition: 0.5s ease;
     }
+}
+/* Button active state when clicked or tapped on mobile */
+button.normal:active {
+  transform: scale(0.96);
+  opacity: 0.85;
 }
 
 
@@ -95,12 +101,20 @@ button.white {
     transition: all 0.3s ease;
 }
 
-button.white:hover {
-    background-color: #000;
-    color: #fff;
-    transform: scale(1.05);
-    transition: 0.5s ease;
+
+@media (hover: hover) and (pointer: fine) {
+    button.white:hover {
+        background-color: #000;
+        color: #fff;
+        transform: scale(1.05);
+        transition: 0.5s ease;
+    }
 }
+button.white:active {
+  transform: scale(0.96);
+  opacity: 0.85;
+}
+
 
 
 
@@ -150,19 +164,31 @@ button.white:hover {
         border-bottom: 2px solid #000;
     }
 }
+#navbar li a:active {
+    transform: scale(0.95);
+    transition: 0.3s ease;
+    opacity: 0.85;
+}
+
 
 #navbar li a i {
     font-size: 18px;
     color: #555;
     transition: 0.3s ease;
 }
-
 @media (hover: hover) and (pointer: fine) {
     #navbar li a:hover i {
         color: #000;
         transform: scale(1.2);
     }
 }
+#navbar li a:active i {
+    transform: scale(0.95);
+    transition: 0.3s ease;
+    opacity: 0.85;
+}
+
+
 
 
 #mobile {
@@ -324,7 +350,6 @@ button.white:hover {
     margin: 15px 0;
 
 }
-
 @media (hover: hover) and (pointer: fine) {
     #feature .fe-box:hover{
         /* box-shadow: 20px 20px 34px rgba(0,0,0,0.5); */
@@ -332,7 +357,11 @@ button.white:hover {
         transform: scale(1.05);
     }
 }
-
+#feature .fe-box:hover:active {
+    transform: scale(0.98);
+    transition: 0.1s ease;
+    opacity: 0.85;
+}
 
 #feature .fe-box h6{
     padding: 9px 8px 6px 8px;
@@ -390,7 +419,6 @@ button.white:hover {
     width: 100%;
     border-radius: 4px;
 }
-
 @media (hover: hover) and (pointer: fine) {
     #product1 .pro:hover{
         box-shadow: 20px 20px 34px rgba(0,0,0,0.4);
@@ -398,6 +426,12 @@ button.white:hover {
         transform: scale(1.005);
     }
 }
+#product1 .pro:active {
+    transform: scale(0.98);
+    transition: 0.1s ease;
+    opacity: 0.85;
+}
+
 
 #product1 .pro .des{
     text-align: center;
@@ -453,6 +487,11 @@ button.white:hover {
         transition: 0.3s ease;
     }
 }
+#product1 .pro .cart:active {
+    transform: scale(0.95);
+    transition: 0.1s ease;
+    opacity: 0.85;
+}
 
 /* RESPONSIVE PRODUCTS */
 @media (max-width: 799px) {
@@ -502,6 +541,11 @@ button.white:hover {
         transform: scale(1.05);
     }
 }
+#banner h2 span:active {
+    transform: scale(0.95);
+    transition: 0.3s ease;
+    opacity: 0.85;
+}
 
 /* RESPONSIVE BANNER */
 @media (max-width: 799px) {
@@ -524,7 +568,6 @@ button.white:hover {
 #sm-banner .banner-box {
     flex: 1 1 48%;               /* allows two banners side by side with flexibility */
     /* height: 45vh; */
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -537,7 +580,6 @@ button.white:hover {
     overflow: hidden;            /* prevents content overflow */
     position: relative;
     text-align: left;
-
     transition: transform .3s ease, box-shadow .3s ease;
 }
 
@@ -572,6 +614,11 @@ button.white:hover {
         transform: scale(1.005);
         box-shadow: 0 10px 28px rgba(0,0,0,0.15);
     }
+}
+#sm-banner .banner-box:active {
+    transform: scale(0.98);
+    transition: 0.1s ease;
+    opacity: 0.85;
 }
 
 /* RESPONSIVE SMALL BANNER */
@@ -735,6 +782,11 @@ footer .footer-content .footer-box a {
         transform: translateX(5px);
     }
 }
+footer .footer-content .footer-box a:active {
+    transform: translateX(5px);
+    transition: 0.3s ease;
+    opacity: 0.85;
+}
 
 /* SOCIAL ICONS */
 footer .footer-content .footer-box .social {
@@ -762,6 +814,13 @@ footer .footer-content .footer-box .social a {
         transform: scale(1.1);
     }
 }
+footer .footer-content .footer-box .social a:hover:active {
+    background: #c1b67f;
+    color: #fff;
+    transform: scale(0.95);
+    transition: 0.1s ease;
+    opacity: 0.85;
+}
 
 /* APP LOGOS */
 footer .footer-content .footer-box .app-logo {
@@ -783,6 +842,11 @@ footer .footer-content .footer-box .app-logo img {
         transform: scale(1.05);
         cursor: pointer;
     }
+}
+footer .footer-content .footer-box .app-logo a:active {
+    transform: scale(0.95);
+    transition: 0.1s ease;
+    opacity: 0.85;
 }
 
 /* Payment image */
@@ -808,6 +872,11 @@ footer .footer-content .footer-box .payment img {
         transform: scale(1.07);
         cursor: pointer;
     }
+}
+footer .footer-content .footer-box .payment a:active {
+    transform: scale(0.95);
+    transition: 0.1s ease;
+    opacity: 0.85;
 }
 
 
