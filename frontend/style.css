@@ -816,7 +816,7 @@ footer .footer-content .footer-box .social a {
 footer .footer-content .footer-box .social a:hover:active {
     background: #c1b67f;
     color: #fff;
-    transform: scale(0.95);
+    transform: scale(0.9);
     transition: 0.1s ease;
 }
 
