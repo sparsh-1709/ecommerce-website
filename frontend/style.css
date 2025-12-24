@@ -84,9 +84,9 @@ button.normal {
 }
 /* Button active state when clicked or tapped on mobile */
 button.normal:active {
-  transform: scale(0.96);
-  transition: 0.5s ease;
-  opacity: 0.85;
+    transform: scale(0.96);
+    transition: 0.1s ease;
+    opacity: 0.85;
 }
 
 
@@ -115,7 +115,7 @@ button.white:active {
     background-color: #000;
     color: #fff;
     transform: scale(0.96);
-    transition: 0.5s ease;
+    transition: 0.1s ease;
     opacity: 0.85;
 }
 
@@ -363,7 +363,7 @@ button.white:active {
 }
 #feature .fe-box:hover:active {
     transform: scale(0.98);
-    transition: 0.1s ease;
+    transition: 0.3s ease;
     opacity: 0.85;
 }
 
@@ -492,6 +492,7 @@ button.white:active {
     }
 }
 #product1 .pro .cart:active {
+    background-color: #ccc8b2;
     transform: scale(0.95);
     transition: 0.1s ease;
     opacity: 0.85;
