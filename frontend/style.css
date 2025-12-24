@@ -975,15 +975,4 @@ footer .footer-bottom p {
     }
 }
 
-/* Disable hover effects on touch devices */
-/* ===============================
-   MOBILE: disable ALL hover
-   =============================== */
-@media (hover: none) and (pointer: coarse) {
-  *:hover {
-    filter: none !important;
-    border-color: inherit !important;
-  }
-}
-
 
