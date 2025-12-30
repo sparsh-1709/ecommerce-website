@@ -892,6 +892,37 @@ footer .footer-bottom p {
     font-size: 14px;
 }
 
+
+
+/* SHOP PAGE */
+
+/* shop slider */
+#shop-header {
+    background-image: url(img/banner/b3_3.png);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 80px;
+}
+
+#shop-header h2,
+#shop-header p {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE FOOTER*/
 @media (max-width: 799px) {
     
